@@ -1,7 +1,7 @@
 # PFO2-ProgramacionSobreRedes
-Propuesta Formativa Obligatoria Nro 2, Programacion sobre Redes, IFTS29
+##Propuesta Formativa Obligatoria Nro 2, Programacion sobre Redes, IFTS29
 
-Pasos para correr la solución
+###Pasos para correr la solución
 1.- clonar el repositorio https://github.com/sdfpalta75/PFO2-ProgramacionSobreRedes.git
 2.- No obligatorio, pero aconsejable, es crear un entorno virtual dentro de la carpeta de la solución
     mediante: python -m venv env (env es el nombre que se le da al entorno virtual)
