@@ -1,4 +1,5 @@
 import requests
+import webbrowser
 
 URL_BASE = 'http://127.0.0.1:5000'
 
@@ -36,6 +37,8 @@ def ejecutar_login():
 
         if respuesta.status_code == 200:
             print(f"\n>>> {respuesta.json().get('mensaje')} <<<")
+            print("Abriendo panel de tareas en el navegador...")
+            webbrowser.open(f"{URL_BASE}/tareas")
             acceder_a_tareas()
         else:
             print(f"Error: {respuesta.json().get('error')}")
